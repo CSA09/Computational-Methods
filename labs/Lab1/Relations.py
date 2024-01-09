@@ -30,7 +30,6 @@ def check_equivalence(relation_set, set_elements):
         print("R is" + (" not" if not transitive else "") + " transitive")
         print("R does" + ("" if reflexive and symmetric and transitive else " not") + " have equivalence relation")
 
-# Example usage:
 input_string = { (0,0), (0,1), (0,3), (1,0), (1,1), (2,2), (3,0), (3,3) }
 elements = {0, 1, 2, 3}
 
